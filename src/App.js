@@ -1,25 +1,17 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import ItemListConteiner from './components/ItemListConteiner';
+import NavBar from './components/NavBar'; 
 
-function App() {
+function App (props){
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Ignacio Perrotta
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <NavBar/>
+      <ItemListConteiner greeting={"4"}/>
     </div>
   );
 }
 
 export default App;
+
