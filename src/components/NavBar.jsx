@@ -1,6 +1,5 @@
 import React from 'react'
 import CartWidget from './CartWidget'
-import ItemListConteiner from './ItemListConteiner'
 
 const  NavBar = () => {
   return (
@@ -12,7 +11,6 @@ const  NavBar = () => {
         <li>Contactanos</li>
         <li>Sobre nosotros</li>
         <CartWidget/>
-        <ItemListConteiner/>
       </ul>
     </div>
     

@@ -1,0 +1,21 @@
+[
+    {
+        "id":  "1",
+        "title": "Zapatilla otta",
+        "price": 5000,
+        "img": "./imagenes/art12.jpg"
+    },
+    {
+        "id":  "1",
+        "title": "Zapato elegante",
+        "price": 5000,
+        "img": "./imagenes/10.jpg"
+    },
+    {
+        "id":  "1",
+        "title": "Rain",
+        "price": 5000,
+        "img": "./imagenes/13.jpg"
+    }
+   
+]

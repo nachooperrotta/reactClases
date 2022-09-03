@@ -1,14 +1,15 @@
-// import logo from './logo.svg';
 import './App.css';
 import ItemListConteiner from './components/ItemListConteiner';
 import NavBar from './components/NavBar'; 
 
-function App (props){
+function App (){
 
   return (
     <div className="container">
-      <NavBar/>
-      <ItemListConteiner greeting={"4"}/>
+      <header className= "appHeader">
+        <NavBar/>
+      </header>
+      <ItemListConteiner/>
     </div>
   );
 }
