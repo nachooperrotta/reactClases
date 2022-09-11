@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState , useEffect } from 'react';
-import itemJson from "../myItems.json";
-import ItemList from "./ItemList";
+import itemJson from "../../myItems.json";
+import ItemList from '../ItemList/ItemList';
 
 /*PARA BOTON 
 
